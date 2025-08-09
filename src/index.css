@@ -1,0 +1,27 @@
+html, body, #root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background: #f6f7f9;
+}
+.kanban-scroll {
+  overflow-x: auto;
+  padding-bottom: 12px;
+}
+.kanban-columns {
+  display: flex;
+  gap: 16px;
+  min-height: 240px;
+}
+.column-width {
+  width: 320px;
+  flex: 0 0 auto;
+}
+.dragging-outline {
+  outline: 2px solid #1677ff;
+  outline-offset: 2px;
+}
+.card {
+  border-radius: 10px;
+}
